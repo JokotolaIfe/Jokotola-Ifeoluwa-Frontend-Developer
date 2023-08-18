@@ -1,0 +1,186 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 3px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  background-color: #009879;
+  border-radius: 10px; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #009879;
+  -webkit-box-shadow: inset 0 0 6px #009879;
+  box-shadow: inset 0 0 6px #009879; }
+
+.wp-block-cgb-block-capsules {
+  max-width: unset !important;
+  color: #292929;
+  margin: 0 auto;
+  padding: 2rem;
+  overflow: scroll !important; }
+
+tr {
+  cursor: pointer;
+  border: none !important; }
+
+.chip {
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-transform: capitalize;
+  text-align: center; }
+
+.active {
+  background-color: #214d1b; }
+
+.inactive {
+  background-color: #6a1717; }
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left; }
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px; }
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd; }
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #000000;
+  color: white !important; }
+
+.styled-table tbody tr:nth-of-type(odd) {
+  background-color: #000000;
+  color: white !important; }
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879; }
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879; }
+
+.block-editor-block-list__block {
+  max-width: unset !important; }
+
+.search {
+  width: 100%;
+  height: 40px;
+  margin-top: 2rem;
+  padding: 4px 6px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+  border: solid 1px #dddddd; }
+
+.modal-cont {
+  height: 100vh;
+  width: 100vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: transparent; }
+  .modal-cont .modal-card {
+    margin: auto;
+    padding: 1rem;
+    width: 500px;
+    background-color: white; }
+    .modal-cont .modal-card .modal-header {
+      border-bottom: none; }
+    .modal-cont .modal-card .modal-title {
+      font-size: 25px;
+      font-weight: 700;
+      color: #1A237E; }
+    .modal-cont .modal-card .modal-body {
+      font-style: italic;
+      font-size: 15px;
+      font-weight: 500;
+      color: #1A237E; }
+    .modal-cont .modal-card .checkbox-form {
+      background: #FFEBEE;
+      color: #D32F2F;
+      margin-top: 10px;
+      padding: 10px 5px;
+      cursor: pointer;
+      border-radius: 1px; }
+    .modal-cont .modal-card .learn {
+      text-decoration: none;
+      color: #fff; }
+    .modal-cont .modal-card .add-list {
+      height: 45px;
+      line-height: 27px;
+      background-color: #D32F2F;
+      color: #fff !important; }
+
+.view-btn {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background-color: #1A237E;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.view-btn:hover {
+  background-color: black;
+  color: white; }
+
+.close-btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: white; }
+
+.close {
+  border-radius: 50%;
+  background: red;
+  border: none;
+  color: white;
+  right: 2rem;
+  top: 10%;
+  position: absolute;
+  padding-bottom: 3px;
+  cursor: pointer;
+  outline: none; }
+
+.text-white {
+  font-style: normal;
+  color: #1A237E; }
+
+.loader {
+  margin: auto;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+  height: 80px; }
+
+.text-center {
+  text-align: center; }
